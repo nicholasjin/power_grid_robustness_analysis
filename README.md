@@ -19,6 +19,7 @@ We here are interested in quantifying risk to energy lifelines, specifically the
 This repository contains the following notebooks that are best accessed in the order listed:
 
 `00_zip_code_data.ipynb` contains metadata related to zip codes around the united states.
+
 `Power_Grid_Analysis.ipynb` contains the constructors for the graph/network our model is built on.
 
 ## Data sources
