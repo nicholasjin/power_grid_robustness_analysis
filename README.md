@@ -1,7 +1,8 @@
 # Power Grid Analysis
 In this project, we attempt to describe the robustness of a power grid to both random and targeted failures via a graph-theoretic model.
 
-
+![](./plots/cover_plot.svg)
+<!-- <img src="./controllers_brief.svg"> -->
 ## Context
 In the event of a disaster FEMA has identified seven different lifelines that require attention in an affected area. Those are as follows:
 
@@ -16,11 +17,11 @@ In the event of a disaster FEMA has identified seven different lifelines that re
 We here are interested in quantifying risk to energy lifelines, specifically the electrical power grid. We imagine that a similar analysis can be conducted on oil/natural gas resources, but we do not extend our model to those here.
 
 ## Notebooks
-This repository contains the following notebooks that are best accessed in the order listed:
+This repository contains the following notebooks:
 
-`00_zip_code_data.ipynb` contains metadata related to zip codes around the united states.
+[`00_zip_code_data.ipynb`](00_zip_code_data.ipynb) contains metadata related to zip codes around the United States.
 
-`Power_Grid_Analysis.ipynb` contains the constructors for the graph/network our model is built on.
+[`01_Graph_Building.ipynb`](01_Graph_Building.ipynb) contains the body of the work, including data cleaning, visualization, EDA, and constructors for the graph/network our model is built on.
 
 ## Data sources
 We downloaded our power datasets from the US Energy Information Agency (EIA) and the Massachusetts Bureau of Geographic Information (MassGIS), though we only used the former as it is more complete.
