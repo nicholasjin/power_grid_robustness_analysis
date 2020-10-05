@@ -27,8 +27,5 @@ This repository contains the following notebooks:
 We downloaded our power datasets from the US Energy Information Agency (EIA) and the Massachusetts Bureau of Geographic Information (MassGIS), though we only used the former as it is more complete.
 
 
-## To do
-- Network construction
-- Monte Carlo simulation of network failures. Important questions: What constitutes a network failure? How to handle sources/sinks not near our network geographically?
-- Computation of a percolation coefficient for our network
-- Simulation of targeted attacks on network
+## Conclusions
+We find that our model of the network does not exhibit criticality. 
