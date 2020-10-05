@@ -28,4 +28,4 @@ We downloaded our power datasets from the US Energy Information Agency (EIA) and
 
 
 ## Conclusions
-We find that our model of the network does not exhibit criticality. 
+We find that our model of the network does not exhibit criticality. That is to say, we find no singular probability $p$, above which our model demonstrates a network failure, and below which the grid happily carries on.
